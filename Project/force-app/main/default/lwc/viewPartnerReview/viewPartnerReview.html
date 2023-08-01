@@ -23,14 +23,13 @@
                                             Partner Business Rating : </span>{partner.Partner_Quality__c}</li>
                                     <li class="slds-item"><span style=" font-weight: bold;">
                                             OverAll Rating : </span>{partner.Overall_rating__c}</li>
-
-                                </ul>
-
-                                <ul
-                                    class="slds-list_vertical-space-medium slds-has-inline-block-links_space slds-align_absolute-center">
-                                    <li class="slds-item ">{partner.Overall_Feedback__c}
+                                    <li class="slds-item ">
+                                        <span style=" font-weight: bold;"> OverAll Feedback : </span> <span> <lightning-formatted-rich-text
+                                        value={partner.Overall_Feedback__c}></lightning-formatted-rich-text> </span>
                                     </li>
+
                                 </ul>
+                                
                             </lightning-tile>
                         </div>
 
