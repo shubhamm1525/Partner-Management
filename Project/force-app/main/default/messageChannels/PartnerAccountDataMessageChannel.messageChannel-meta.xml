@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Lightning Message Channel for carring selected partner account from partner card publisher</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>This is the record Id of selected partner account</description>
+        <fieldName>selectedPartnerAccountId</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Name of the Channel</description>
+        <fieldName>channelname</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>This is the name of the selected partner account</description>
+        <fieldName>selectedPartnerAccountName</fieldName>
+    </lightningMessageFields>
+    <masterLabel>SampleMessageChannel</masterLabel>
+</LightningMessageChannel>
