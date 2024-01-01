@@ -1,18 +1,40 @@
-# Salesforce DX Project: Next Steps
+![ezgif com-video-to-gif-converter](https://github.com/shubhamm1525/Partner-Management/assets/60888872/03d627c9-e78c-4729-bdfe-51818662ce47)
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Partner Management Application Readme
+Overview
+The Partner Management Application is a Salesforce Lightning Web Component (LWC) based solution designed to streamline the process of managing partners. This application allows users to select partners based on categories, add reviews for partners, and view partner locations, providing a comprehensive tool for efficient partner management.
 
-## How Do You Plan to Deploy Your Changes?
+Features
+1. Partner Selection by Category
+Easily filter and select partners based on predefined categories. This feature helps users quickly identify and choose partners that align with specific criteria or business needs.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+2. Review Management
+Empower users to add and manage reviews for each partner. Reviews provide valuable insights into partner performance and help in making informed decisions. Users can contribute feedback, ratings, and comments to create a collaborative and transparent review process.
 
-## Configure Your Salesforce DX Project
+3. Partner Location Viewer
+Effortlessly view partner locations on a map within the application. This feature enhances the user experience by providing a visual representation of partner distribution, facilitating better decision-making when selecting partners based on geographical considerations.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Usage
+Navigate to the App:
+Open Salesforce and go to the App Launcher. Search for "Partner Management" and select the application.
 
-## Read All About It
+Select Partners by Category:
+Use the category filters to narrow down partners based on specific criteria. This makes it easy to find partners that meet your business requirements.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Add Reviews:
+For each partner, navigate to the "Reviews" section to add, edit, or view reviews. Provide ratings and comments to contribute to the collaborative review process.
+
+View Partner Locations:
+Explore the geographical distribution of partners by navigating to the "Map" or "Locations" section. This provides a visual representation of where partners are located.
+
+Dependencies
+The Partner Management Application relies on the following Salesforce features and technologies:
+Lightning Web Components (LWC)
+
+Thank you!
+
+
+
+
+
+
